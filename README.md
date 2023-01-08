@@ -15,12 +15,28 @@ Then, mix and match with a variety of elements!<br>
 <th>Element</th>
 <th>HTML</th>
 </tr>
+<tr>
 <td>A panel</td>
 <td>
 <code>
 &lt;div class=&quot;neu panel&quot;&gt;
 </code>
 </td>
+</tr>
 <tr>
+<td>An inset panel</td>
+<td>
+<code>
+&lt;div class=&quot;neu insetPanel&quot;&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>A button</td>
+<td>
+<code>
+&lt;button class=&quot;neu&quot;&gt;...&lt;/button&gt;
+</code>
+</td>
 </tr>
 </table>
