@@ -9,7 +9,7 @@ Add the following code to your <code>&lt;head&gt;</code> tag.<br>
 <br>
 Now that the stylesheet is included, you have to make a container for the elements.<br>
 <code>&lt;div class=&quot;neu container&quot;&gt;...&lt;/div&gt;</code><br>
-Then, mix and match with a variety of elements!<br>
+Then, mix and match with a variety of elements! Put them in the container.<br>
 <table>
 <tr>
 <th>Element</th>
