@@ -9,6 +9,8 @@ Add the following code to your <code>&lt;head&gt;</code> tag.<br>
 <br>
 Now that the stylesheet is included, you have to make a container for the elements.<br>
 <code>&lt;div class=&quot;neu container&quot;&gt;...&lt;/div&gt;</code><br>
+<br>
+Optionally, if your whole website will be using this, set the class of your <code>&lt;html&gt;</code> tag to "neu"<br><br>
 Then, mix and match with a variety of elements! Put them in the container.<br>
 <table>
 <tr>
