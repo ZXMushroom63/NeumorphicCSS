@@ -40,4 +40,52 @@ Then, mix and match with a variety of elements! Put them in the container.<br>
 </code>
 </td>
 </tr>
+<tr>
+<td>Most input elements</td>
+<td>
+<code>
+&lt;input type=&quot;...&quot; class=&quot;neu&quot;&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Switches</td>
+<td>
+<code>
+&lt;input type=&quot;checkbox&quot; class=&quot;neu switch&quot;&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Textareas</td>
+<td>
+<code>
+&lt;textarea class=&quot;neu&quot;&gt;...&lt;/textarea&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Concave elements</td>
+<td>
+<code>
+&lt;* class=&quot;neu concave&quot;&gt;...&lt;/*&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Convex elements</td>
+<td>
+<code>
+&lt;* class=&quot;neu convex&quot;&gt;...&lt;/*&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Tables</td>
+<td>
+<code>
+&lt;table class=&quot;neu&quot;&gt;...&lt;/table&gt;
+</code>
+</td>
+</tr>
 </table>
