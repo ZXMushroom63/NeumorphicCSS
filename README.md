@@ -3,8 +3,7 @@ An all-in-one neumorphism css stylesheet.<br>
 Is pretty simple to use!<br>
 <br>
 First, to get started you have to include the stylesheet to your HTML file.<br>
-Add the following code to your <code>&lt;head&gt;</code> tag.<br>
-<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://raw.githubusercontent.com/ZXMushroom63/NeumorphicCSS/main/neumorphic.css&quot;&gt;</code><br>
+You can do this by copying the contents of <a href="neumorphic.css">neumorphic.css</a> to your website, or some other method.
 <br>
 <br>
 Now that the stylesheet is included, you have to make a container for the elements.<br>
