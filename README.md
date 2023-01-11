@@ -13,7 +13,7 @@ Optionally, if your whole website will be using this, set the class of your <cod
 Then, mix and match with a variety of elements! Put them in the container.<br>
 <table>
 <tr>
-<th>Element</th>
+<th>Feature</th>
 <th>HTML</th>
 </tr>
 <tr>
@@ -96,6 +96,17 @@ Then, mix and match with a variety of elements! Put them in the container.<br>
 </code><br>OR<br>
   <code>
 &lt;* class=&quot;neu roundCorners&quot;&gt;...&lt;/*&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Inset & Outset Forcing</td>
+<td>
+<code>
+&lt;* class=&quot;neu outset&quot;&gt;...&lt;/*&gt;
+</code><br>OR<br>
+<code>
+&lt;* class=&quot;neu inset&quot;&gt;...&lt;/*&gt;
 </code>
 </td>
 </tr>
