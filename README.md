@@ -88,4 +88,15 @@ Then, mix and match with a variety of elements! Put them in the container.<br>
 </code>
 </td>
 </tr>
+<tr>
+<td>Corners</td>
+<td>
+<code>
+&lt;* class=&quot;neu squareCorners&quot;&gt;...&lt;/*&gt;
+</code><br>OR<br>
+  <code>
+&lt;* class=&quot;neu roundCorners&quot;&gt;...&lt;/*&gt;
+</code>
+</td>
+</tr>
 </table>
