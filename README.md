@@ -3,7 +3,12 @@ An all-in-one neumorphism css stylesheet.<br>
 Is pretty simple to use!<br>
 <br>
 First, to get started you have to include the stylesheet to your HTML file.<br>
-You can do this by copying the contents of <a href="neumorphic.css">neumorphic.css</a> to your website, or some other method.
+You can do this by copying the contents of <a href="neumorphic.css">neumorphic.css</a> to your website, or by adding this script which automatically adds it to your website.<br>
+```html
+<script>
+fetch("https://raw.githubusercontent.com/ZXMushroom63/NeumorphicCSS/main/neumorphic.css").then((x)=>{x.blob().then((y)=>{y.text().then((z)=>{var s=document.createElement("style");s.innerHTML=z;document.head.appendChild(s);});});});
+</script>
+```
 <br>
 <br>
 Now that the stylesheet is included, you have to make a container for the elements.<br>
@@ -107,6 +112,36 @@ Then, mix and match with a variety of elements! Put them in the container.<br>
 </code><br>OR<br>
 <code>
 &lt;* class=&quot;neu inset&quot;&gt;...&lt;/*&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Selects</td>
+<td>
+<code>
+&lt;select class=&quot;neu&quot;&gt;...&lt;/select&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Small or Circular Buttons</td>
+<td>
+<code>
+&lt;button class=&quot;neu smallButton&quot;&gt;...&lt;/button&gt;
+</code><br>OR<br>
+<code>
+&lt;button class=&quot;neu smallButton circle&quot;&gt;...&lt;/button&gt;
+</code>
+</td>
+</tr>
+<tr>
+<td>Corner Roundness</td>
+<td>
+<code>
+&lt;* class=&quot;neu smallButton&quot;&gt;...&lt;/*&gt;
+</code><br>OR<br>
+<code>
+&lt;* class=&quot;neu smallButton circle&quot;&gt;...&lt;/*&gt;
 </code>
 </td>
 </tr>
