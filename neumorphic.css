@@ -96,7 +96,7 @@ input.neu[type="submit"]:hover:enabled {
   border-radius: 0;
 }
 .neu.roundCorners {
-  border-radius: 6rem;
+  border-radius: 3rem;
 }
 table.neu {
   text-align: center;
@@ -204,4 +204,27 @@ input.neu.switch[type="checkbox"]:checked::before {
 input.neu.switch[type="checkbox"]:checked::after {
   transform: translateX(70%);
   box-shadow: 0.1333rem 0.1333rem 0.1333rem rgba(0, 0, 0, 0.5);
+}
+select.neu {
+  justify-self: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: #e4ebf5;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+}
+.neu.smallButton {
+  width:4rem;
+}
+.neu.inline {
+  display: inline-block;
+}
+.neu.circle {
+  border-radius: 50% !important;
 }
